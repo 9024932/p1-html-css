@@ -1,19 +1,44 @@
 h1{
-color: blue;  
-}
+    color: blue;  
+    }
+    
+    h2{
+        color:#0000ff;
+    }
+    
+    h3{
+        color: teal;
+    }
+    
+    p{
+        color: #4d4d4d;
+    }
+    
+    a{
+        color:#8A2BE2;
+    }
 
-h2{
-    color:#0000ff;
-}
+    header{
+        width: 100vw;
+        height: 33vh;
+        background-image:url(img/diofield.jpeg);
+       background-size: cover;
+        background-position: center;
+    }
 
-h3{
-    color: teal;
-}
+    header h1{
+     color: red;   
+    }
 
-p{
-    color: #4d4d4d;
-}
+    header p{
+        color: red;
+    }
 
-a{
-    color:#8A2BE2;
-}
+    img{
+        width: 50vw;
+    }
+
+    article{
+        border-left: 10px;
+        border:solid red 5px;
+    }
