@@ -1,17 +1,25 @@
 h1{
-    color: blue;  
+    color: blue; 
+    font-size: 24px; 
+    font-style: bold;
     }
     
     h2{
         color:#0000ff;
+        font-size: 20px;
+        font-style: bold;
     }
     
     h3{
         color: teal;
+        font-size: 16px;
+        font-style: bold;
     }
     
     p{
         color: #4d4d4d;
+        font-style: bold;
+        
     }
     
     a{
