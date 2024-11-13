@@ -1,0 +1,298 @@
+nav {
+  display: flex;
+  width: 100%;
+  padding: 2rem;
+  min-height: 10vh;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+  background: #00a8c7;
+  justify-content: space-between;
+}
+
+
+/* Algemene stijlen voor de navbar */
+nav {
+background-color: #00a8c7;
+padding: 10px;
+}
+
+ul {
+list-style-type: none;
+padding: 0;
+margin: 0;
+display: flex;
+}
+
+li {
+margin: 0 15px;
+}
+
+/* Stijl voor de links */
+a {
+color: white;
+text-decoration: none;
+font-size: 18px;
+padding: 10px 15px;
+display: block;
+}
+
+/* Stijl voor de dropdown container */
+.dropdown {
+position: relative;
+}
+
+/* De dropdown content is verborgen standaard */
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: white;
+min-width: 160px;
+box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+z-index: 1;
+}
+
+/* Dropdown links */
+.dropdown-content a {
+color: #00a8c7;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+
+/* Hover effect voor de links in de dropdown */
+.dropdown-content a:hover {
+background-color: #E9E9E9;
+}
+
+/* Toon de dropdown wanneer je hover over de dropdown-container */
+.dropdown:hover .dropdown-content {
+display: block;
+}
+
+/* Stijl voor de 'jaar 2' knop wanneer je er overhovert */
+.dropdown:hover .dropbtn {
+color:#00a8c7; /* Blauwe kleur */
+background-color: white; /* Witte achtergrond */
+padding-right: 20px; /* Ruimte voor het vierkantje */
+}
+
+/* Het witte vierkantje achter de 'jaar 2' knop */
+.dropdown:hover .dropbtn::after {
+content: "";
+position: absolute;
+right: 10px;
+top: 50%;
+transform: translateY(-50%);
+width: 10px;
+height: 10px;
+background-color: white;
+border: 2px solid;
+color:#00a8c7; /* Blauwe rand */
+border-radius: 2px;
+}
+
+
+
+
+*{
+  padding: 0;
+  margin: 0;
+ 
+}
+
+
+
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Goldman", cursive;
+}
+
+
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+nav li {
+  font-size: 2.5rem;
+  padding: 0 4rem 0 4rem;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+nav img {
+  width: 5vw;
+}
+.backgroundImage{
+  width:100w;
+  height: 100vh;
+}
+
+h1{
+  position: absolute;
+  top:  35%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: #fff;
+  text-align: center;
+  font-size: 35px;
+
+}
+ .phpTxt {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color:black;
+  text-align:center;
+  font-size:50px;
+}
+
+.HTMLTxt{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color:black;
+  text-align:center;
+  font-size:50px;
+}
+
+.SQLTxt{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color:#fff;
+  text-align:center;
+  font-size:50px;
+}
+
+.javascriptTxt{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: #fff;
+  text-align: center;
+  font-size:50px;
+}
+
+.SQLTxtp{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color:WHITE;
+  text-align: center;
+  font-size:10px;
+}
+
+
+.Javascriptpp{
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color:WHITE;
+  text-align: center;
+  font-size:10px;
+ 
+}
+
+h2 {
+  letter-spacing: 1px;
+ 
+}
+
+
+h2{
+  text-indent:550px;
+ 
+ 
+}
+
+
+
+p {
+  width: 100%;
+  padding: 1rem;
+}
+  .javascriptTxt{
+    color: #fff;
+  }
+
+  .html2{
+  position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:black;
+    text-align: center;
+    font-size: 10px;
+}
+.php2{
+position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:black;
+    text-align: center;
+    font-size: 10px;
+}
+
+
+.tok{
+height:1px ;
+}
+.background{
+  position: auto;
+  width: 1550px;
+  height: 1000px;
+}
+ 
+ h2{color:#fff}
+
+
+img{
+  padding:1rem;
+  width: 25%;
+ min height: 100vh;
+ align-items: center;
+ float:center;
+}
+
+.javascript{
+  background-image: none;
+ background-color: black;
+ 
+}
+
+
+.SQL{
+  background-image: none;
+  background-color: black;
+}
+
+footer{ width: 100%;
+  padding: 1rem;
+  min-height: 5vh;
+  align-items: center;
+  background: #00a8c7;
+  justify-content: space-between;
+  h2{color:#fff}
+  position: absolute;
+  bottom: 0;
+}
+.tan{
+ 
+}
+.background2{
+  width: 99vw;
+  height: 76vh;
+}
