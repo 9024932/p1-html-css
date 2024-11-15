@@ -1,4 +1,31 @@
-*{
-    margin: 0;
-    padding: 0;
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    
+}
+
+
+
+.navbar .login {
+    width: 25%;
+    text-align: center;
+    color: blue;
+    font-size: 20px;
+
+}
+
+
+.navbar .nav-midden {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    color: blue;
+}
+
+.navbar a {
+    color: blue;
+    font-size: 18px;
 }
